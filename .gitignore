@@ -1,0 +1,63 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Tauri / Rust
+# =========================
+src-tauri/target/
+src-tauri/target/**
+
+# Cargo
+Cargo.lock
+**/Cargo.lock
+
+# =========================
+# Tauri build artifacts
+# =========================
+src-tauri/bin/
+src-tauri/gen/
+src-tauri/.cargo/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# macOS app bundles (local builds)
+# =========================
+*.app
+
+# =========================
+# Temporary / Cache
+# =========================
+.tmp/
+.cache/
