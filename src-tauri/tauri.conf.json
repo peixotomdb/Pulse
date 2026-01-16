@@ -33,11 +33,12 @@
       "targets": "all",
       "identifier": "com.rocketseat.uploadwidget",
       "icon": [
-        "icons/32x32.png",
-        "icons/128x128.png",
-        "icons/128x128@2x.png",
-        "icons/icon.icns",
-        "icons/icon.ico"
+        "icons/android-chrome-192x192.png",
+        "icons/android-chrome-512x512.png",
+        "icons/apple-touch-icon.png",
+        "icons/mstile-150x150.png",
+        "icons/favicon-32x32.png",
+        "icons/favicon-16x16.png"
       ],
       "resources": [
         "resources/*"
@@ -67,7 +68,7 @@
       }
     ],
     "systemTray": {
-      "iconPath": "icons/icon.png",
+      "iconPath": "icons/favicon-32x32.png",
       "iconAsTemplate": true,
       "menuOnLeftClick": false
     }
