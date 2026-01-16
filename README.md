@@ -4,7 +4,7 @@ Pulse is a small macOS menu bar system monitor.
 It shows a quick snapshot of your Mac’s system state without dashboards, charts, or noise.
 
 <p align="center">
-  <img src="src-tauri/icons/logo.jpg" alt="Pulse logo" width="240" />
+  <img src="src-tauri/icons/logo.jpg" alt="Pulse logo" width="600" />
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-macOS-blue.svg" alt="Platform: macOS" />
